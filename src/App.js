@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Cadastro from '../src/components/cadastro'
 
 function App() {
   return (
     <div className="App">
       Formulário com firebase
+      <Cadastro/>
     </div>
   );
 }
